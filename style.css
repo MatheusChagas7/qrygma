@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100vw;
+/*   background: linear-gradient(to top, #313133, #7870AF); */
+  background-color: #000;
+/*   border: 2px solid red; */
+}
+
+.container{
+/*   border: 2px solid #fff; */
+  width: 80%;
+  height: 100%;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+/*   text-align: center; */
+  justify-content: center;
+  align-items: baseline;
+/*   border: 2px solid blue; */
+  padding-top: 10px;
+}
+
+header img{
+  height: 80px;
+  width: 80px;
+}
+
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+/*   border: 2px solid green; */
+}
+
+.sobre{
+/*   border: 2px solid purple; */
+  text-align: center;
+  color: #fff;
+}
+
+.autor{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+#descricao{
+  padding: 10px 0px;
+}
+
+.sobre img{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.gallery img{
+  width: calc(33.33% - 10px);
+  height: 400px;
+  margin: 5px;
+  object-fit:cover;
+  border-radius: 5px;
+}
+
+footer{
+/*   border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  margin: 10px 0px;
+  color: #fff;
+  text-align: center;
+}
+
+#siga{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+footer a{
+  margin-right: 15px;
+  color: #fff;
+}
+
+a:link, a:visited, a:active{
+  text-decoration: none;
+}
+
+footer a img{
+  margin: 0px 10px;
+  height: 35px;
+  width: 35px;
+}
